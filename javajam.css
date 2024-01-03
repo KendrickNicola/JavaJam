@@ -1,0 +1,103 @@
+body {
+       background-image: url('fadedroad50.jpg');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       background-color: #FCEBB6;
+       color: #221811;
+       font-family: Tahoma, Arial, sans-serif;
+     }
+     
+     #wrapper {
+       background-color: #FEFAEB;
+       margin-left: auto;
+       margin-right: auto;
+       width: 80%;
+       min-width: 900px;
+       max-width: 1280px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     }
+     
+     header {
+       background-color: #D2B48C;
+       color: #8C3826;
+       text-align: center;
+       padding-top: 5px;
+       padding-bottom: 5px;
+     }
+     
+     h1 {
+       font-size: 3em;
+     }
+     .right-aligned-image {
+       float: right; /* Float the image to the right */
+       margin-left: 20px; /* Add some space between the image and the content */
+     }
+     
+     
+     nav {
+       font-weight: bold;
+       text-align: center;
+       font-size: 1.5em;
+       padding-top: 5px;
+       padding-bottom: 5px;
+     }
+     
+     nav a {
+       text-decoration: none;
+     }
+     
+     footer {
+       background-color: #D2B48C;
+       font-size: .60em;
+       font-style: italic;
+       text-align: center;
+       padding: 1em 0;
+       border-top: 2px solid #8C3826;
+     }
+     
+     h4 {
+       background-color: #D2B48C;
+       font-size: 1.2em;
+       padding-left: .5em;
+       padding-bottom: .25em;
+     }
+     
+     h3,
+     dt {
+       color: #8C3826;
+     }
+     
+     main {
+       padding: 0 2em 2em;
+       display: block; /* For IE */
+     }
+     
+     .details {
+       padding: 0 20%;
+     }
+     
+     img {
+       padding-left: 10px;
+       padding-right: 10px;
+     }
+     
+     #homehero {
+       height: 300px;
+       background-image: url('hero.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+     .details {
+       padding: 0 20%;
+       overflow: auto; 
+     }
+     
+     .details img {
+       float: left; 
+       margin-right: 20px; 
+     }
+     
+     .details p {
+       margin-left: 230px; 
+     }
